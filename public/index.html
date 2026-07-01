@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Chartered Automation — Where Chartered Accountancy Meets Technology</title>
-  <meta name="description" content="Chartered Automation helps chartered accountants and finance teams integrate automation into audits, compliance, bookkeeping and reporting — where finance meets technology." />
+  <meta name="description" id="meta-description" content="Chartered Automation helps chartered accountants and finance teams integrate automation into audits, compliance, bookkeeping and reporting — where finance meets technology." />
   <meta name="theme-color" content="#0b1f3a" />
 
   <!-- Open Graph / social preview -->
@@ -29,7 +29,7 @@
             <circle cx="28" cy="8" r="3" fill="currentColor"/>
           </svg>
         </span>
-        <span class="brand-name">Chartered <span>Automation</span></span>
+        <span class="brand-name" data-brand>Chartered <span>Automation</span></span>
       </a>
 
       <nav class="nav" id="nav-menu" aria-label="Primary">
@@ -51,20 +51,16 @@
     <section class="hero">
       <div class="container hero-grid">
         <div class="hero-copy reveal">
-          <span class="eyebrow">Chartered Accountancy × Technology</span>
-          <h1>Automate the repetitive. <span class="grad">Elevate the strategic.</span></h1>
-          <p class="lead">
-            Chartered Automation helps chartered accountants and finance teams weave automation into
-            audits, compliance, bookkeeping and reporting — so your people spend time on
-            judgement, not data entry.
-          </p>
+          <span class="eyebrow" id="hero-eyebrow"></span>
+          <h1 id="hero-heading"></h1>
+          <p class="lead" id="hero-subtext"></p>
           <div class="hero-cta">
-            <a href="#contact" class="btn btn-primary">Book a free walkthrough</a>
-            <a href="#how" class="btn btn-ghost">See how it works</a>
+            <a href="#contact" class="btn btn-primary" id="hero-btn-primary"></a>
+            <a href="#how" class="btn btn-ghost" id="hero-btn-secondary"></a>
           </div>
           <div class="hero-trust">
-            <span>Trusted approach for</span>
-            <strong>Audit · Tax · Advisory · Bookkeeping</strong>
+            <span id="hero-trust-label"></span>
+            <strong id="hero-trust-line"></strong>
           </div>
         </div>
 
@@ -91,55 +87,18 @@
 
     <!-- ===================== STATS BAND ===================== -->
     <section class="stats">
-      <div class="container stats-grid">
-        <div class="stat reveal"><b data-count="70">0</b><span>% less time on manual entry</span></div>
-        <div class="stat reveal"><b data-count="8">0</b><span>× faster month-end close</span></div>
-        <div class="stat reveal"><b data-count="99">0</b><span>% reconciliation accuracy</span></div>
-        <div class="stat reveal"><b data-count="24">0</b><span>/7 compliance monitoring</span></div>
-      </div>
+      <div class="container stats-grid" id="stats-grid"></div>
     </section>
 
     <!-- ===================== SERVICES ===================== -->
     <section class="section" id="services">
       <div class="container">
         <div class="section-head reveal">
-          <span class="eyebrow">What we automate</span>
-          <h2>Automation built for the way accountants actually work</h2>
-          <p>Practical, auditable workflows that plug into the tools you already use — not a rip-and-replace.</p>
+          <span class="eyebrow" id="services-eyebrow"></span>
+          <h2 id="services-title"></h2>
+          <p id="services-subtitle"></p>
         </div>
-
-        <div class="grid cards">
-          <article class="card feature reveal">
-            <div class="ico">📥</div>
-            <h3>Bookkeeping &amp; data capture</h3>
-            <p>Auto-extract data from invoices, receipts and bank feeds with OCR, then post entries with rule-based coding.</p>
-          </article>
-          <article class="card feature reveal">
-            <div class="ico">🔁</div>
-            <h3>Reconciliations</h3>
-            <p>Match ledgers, bank statements and sub-ledgers automatically and surface only the exceptions that need a human.</p>
-          </article>
-          <article class="card feature reveal">
-            <div class="ico">📊</div>
-            <h3>Financial reporting</h3>
-            <p>One-click management packs, MIS dashboards and board reports refreshed straight from live data.</p>
-          </article>
-          <article class="card feature reveal">
-            <div class="ico">🛡️</div>
-            <h3>Compliance &amp; filings</h3>
-            <p>Track GST/VAT, TDS, and statutory deadlines with automated reminders and pre-filled return workpapers.</p>
-          </article>
-          <article class="card feature reveal">
-            <div class="ico">🔍</div>
-            <h3>Audit support</h3>
-            <p>Sampling, tie-outs and evidence collection automated, with a clean, exportable audit trail for every step.</p>
-          </article>
-          <article class="card feature reveal">
-            <div class="ico">🤖</div>
-            <h3>AI advisory copilots</h3>
-            <p>Ask questions of your financials in plain language and get instant, source-linked answers for clients.</p>
-          </article>
-        </div>
+        <div class="grid cards" id="services-grid"></div>
       </div>
     </section>
 
@@ -147,32 +106,10 @@
     <section class="section section-alt" id="how">
       <div class="container">
         <div class="section-head reveal">
-          <span class="eyebrow">How it works</span>
-          <h2>From spreadsheets to automated workflows in four steps</h2>
+          <span class="eyebrow" id="how-eyebrow"></span>
+          <h2 id="how-title"></h2>
         </div>
-
-        <ol class="steps">
-          <li class="step reveal">
-            <span class="step-no">1</span>
-            <h3>Map the workflow</h3>
-            <p>We review a repetitive process — say, monthly reconciliations — and document every rule and exception.</p>
-          </li>
-          <li class="step reveal">
-            <span class="step-no">2</span>
-            <h3>Connect your data</h3>
-            <p>Secure, read-only connections to your accounting software, bank feeds and document stores.</p>
-          </li>
-          <li class="step reveal">
-            <span class="step-no">3</span>
-            <h3>Automate &amp; review</h3>
-            <p>Bots handle the volume; your team reviews flagged exceptions and approves with a single click.</p>
-          </li>
-          <li class="step reveal">
-            <span class="step-no">4</span>
-            <h3>Scale with confidence</h3>
-            <p>Every action is logged and auditable, so you keep full control and compliance as you grow.</p>
-          </li>
-        </ol>
+        <ol class="steps" id="steps-list"></ol>
       </div>
     </section>
 
@@ -180,38 +117,22 @@
     <section class="section" id="benefits">
       <div class="container benefits-grid">
         <div class="benefits-copy reveal">
-          <span class="eyebrow">Why it matters</span>
-          <h2>Reclaim time for the work only a CA can do</h2>
-          <p>Automation isn't about replacing accountants — it's about freeing them from the manual grind so they can focus on advice, risk and relationships.</p>
-          <ul class="checklist">
-            <li>Cut month-end close from weeks to days</li>
-            <li>Reduce human error and rework</li>
-            <li>Handle more clients without adding headcount</li>
-            <li>Deliver real-time insights, not stale reports</li>
-            <li>Keep a defensible, timestamped audit trail</li>
-          </ul>
-          <a href="#contact" class="btn btn-primary">Talk to us</a>
+          <span class="eyebrow" id="benefits-eyebrow"></span>
+          <h2 id="benefits-title"></h2>
+          <p id="benefits-text"></p>
+          <ul class="checklist" id="benefits-checklist"></ul>
+          <a href="#contact" class="btn btn-primary" id="benefits-btn"></a>
         </div>
 
         <div class="benefits-visual reveal">
           <div class="compare">
             <div class="compare-col before">
-              <h4>Before</h4>
-              <ul>
-                <li>Manual data entry</li>
-                <li>Late-night reconciliations</li>
-                <li>Version-chaos spreadsheets</li>
-                <li>Deadline scrambles</li>
-              </ul>
+              <h4 id="before-title"></h4>
+              <ul id="before-list"></ul>
             </div>
             <div class="compare-col after">
-              <h4>With Chartered Automation</h4>
-              <ul>
-                <li>Auto-captured data</li>
-                <li>Exceptions-only review</li>
-                <li>Single source of truth</li>
-                <li>Deadlines on autopilot</li>
-              </ul>
+              <h4 id="after-title"></h4>
+              <ul id="after-list"></ul>
             </div>
           </div>
         </div>
@@ -222,23 +143,10 @@
     <section class="section section-alt">
       <div class="container">
         <div class="section-head reveal">
-          <span class="eyebrow">In their words</span>
-          <h2>What finance teams say</h2>
+          <span class="eyebrow" id="testimonials-eyebrow"></span>
+          <h2 id="testimonials-title"></h2>
         </div>
-        <div class="grid cards">
-          <blockquote class="card quote reveal">
-            <p>"Our reconciliation time dropped by 80%. My team finally gets to do advisory work instead of chasing entries."</p>
-            <footer>— Partner, mid-size audit firm</footer>
-          </blockquote>
-          <blockquote class="card quote reveal">
-            <p>"Month-end used to swallow the first week. Now the numbers are ready on day two, with a clean audit trail."</p>
-            <footer>— Financial Controller, SaaS company</footer>
-          </blockquote>
-          <blockquote class="card quote reveal">
-            <p>"The compliance reminders alone paid for themselves. We haven't missed a filing deadline since."</p>
-            <footer>— Practising Chartered Accountant</footer>
-          </blockquote>
-        </div>
+        <div class="grid cards" id="testimonials-grid"></div>
       </div>
     </section>
 
@@ -246,51 +154,11 @@
     <section class="section" id="pricing">
       <div class="container">
         <div class="section-head reveal">
-          <span class="eyebrow">Simple pricing</span>
-          <h2>Plans that scale with your practice</h2>
-          <p>Start small, automate one workflow, and expand as you see the results.</p>
+          <span class="eyebrow" id="pricing-eyebrow"></span>
+          <h2 id="pricing-title"></h2>
+          <p id="pricing-subtitle"></p>
         </div>
-
-        <div class="grid pricing-grid">
-          <article class="card price reveal">
-            <h3>Starter</h3>
-            <div class="amount"><span>$</span>0<small>/mo</small></div>
-            <p class="price-note">For solo practitioners exploring automation.</p>
-            <ul>
-              <li>1 automated workflow</li>
-              <li>Up to 500 transactions/mo</li>
-              <li>Email support</li>
-            </ul>
-            <a href="#contact" class="btn btn-ghost">Start free</a>
-          </article>
-
-          <article class="card price featured reveal">
-            <span class="badge">Most popular</span>
-            <h3>Practice</h3>
-            <div class="amount"><span>$</span>149<small>/mo</small></div>
-            <p class="price-note">For growing firms and finance teams.</p>
-            <ul>
-              <li>Up to 10 workflows</li>
-              <li>Unlimited transactions</li>
-              <li>Compliance calendar &amp; reminders</li>
-              <li>Priority support</li>
-            </ul>
-            <a href="#contact" class="btn btn-primary">Choose Practice</a>
-          </article>
-
-          <article class="card price reveal">
-            <h3>Enterprise</h3>
-            <div class="amount">Custom</div>
-            <p class="price-note">For multi-office firms with bespoke needs.</p>
-            <ul>
-              <li>Unlimited workflows</li>
-              <li>Dedicated success manager</li>
-              <li>SSO &amp; advanced security</li>
-              <li>Custom integrations</li>
-            </ul>
-            <a href="#contact" class="btn btn-ghost">Contact sales</a>
-          </article>
-        </div>
+        <div class="grid pricing-grid" id="pricing-grid"></div>
       </div>
     </section>
 
@@ -298,23 +166,23 @@
     <section class="section cta" id="contact">
       <div class="container cta-inner reveal">
         <div class="cta-copy">
-          <h2>Ready to let automation do the heavy lifting?</h2>
-          <p>Tell us about one workflow you'd love to automate. We'll show you what's possible in a free 20-minute walkthrough.</p>
+          <h2 id="contact-heading"></h2>
+          <p id="contact-text"></p>
         </div>
         <form class="contact-form" id="contact-form" novalidate>
           <div class="field">
-            <label for="name">Name</label>
+            <label for="name" id="label-name"></label>
             <input type="text" id="name" name="name" autocomplete="name" required />
           </div>
           <div class="field">
-            <label for="email">Work email</label>
+            <label for="email" id="label-email"></label>
             <input type="email" id="email" name="email" autocomplete="email" required />
           </div>
           <div class="field">
-            <label for="message">What would you like to automate?</label>
+            <label for="message" id="label-message"></label>
             <textarea id="message" name="message" rows="3" required></textarea>
           </div>
-          <button type="submit" class="btn btn-primary btn-block">Request my walkthrough</button>
+          <button type="submit" class="btn btn-primary btn-block" id="contact-submit"></button>
           <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
         </form>
       </div>
@@ -332,9 +200,9 @@
               <circle cx="28" cy="8" r="3" fill="currentColor"/>
             </svg>
           </span>
-          <span class="brand-name">Chartered <span>Automation</span></span>
+          <span class="brand-name" data-brand>Chartered <span>Automation</span></span>
         </a>
-        <p class="footer-tag">Where chartered accountancy meets automation.</p>
+        <p class="footer-tag" id="footer-tag"></p>
       </div>
       <nav aria-label="Footer">
         <h4>Product</h4>
@@ -349,15 +217,17 @@
       </nav>
       <div>
         <h4>Get in touch</h4>
-        <a href="mailto:hello@charteredautomation.com">hello@charteredautomation.com</a>
+        <a id="footer-email" href="mailto:hello@charteredautomation.com">hello@charteredautomation.com</a>
       </div>
     </div>
     <div class="container footer-bottom">
-      <span>© <span id="year"></span> Chartered Automation. All rights reserved.</span>
-      <span>Built for chartered accountants embracing automation.</span>
+      <span>© <span id="year"></span> <span data-brand-plain>Chartered Automation</span>. All rights reserved.</span>
+      <span id="footer-subtitle"></span>
     </div>
   </footer>
 
+  <!-- Content lives in content.js (edit that file to change any text) -->
+  <script src="content.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>
